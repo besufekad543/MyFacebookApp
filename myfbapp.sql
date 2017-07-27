@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 27, 2017 at 06:56 PM
+-- Generation Time: Jul 27, 2017 at 06:59 PM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -40,13 +40,6 @@ CREATE TABLE `users` (
   `created` datetime NOT NULL,
   `modified` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `oauth_provider`, `oauth_uid`, `first_name`, `last_name`, `email`, `gender`, `locale`, `picture`, `link`, `created`, `modified`) VALUES
-(1, 'facebook', '10209468160408228', 'Besufekad', 'Assefa', 'besufekad.assefa@gmail.com', 'male', 'en_US', 'https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/11831679_10204553507384974_5426152301532503315_n.jpg?oh=62df56a274794b24c932f030f8c8b24d&oe=59F6B5B9', 'https://www.facebook.com/app_scoped_user_id/10209468160408228/', '2017-07-27 17:12:45', '2017-07-27 18:48:06');
 
 --
 -- Indexes for dumped tables
