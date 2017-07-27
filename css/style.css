@@ -1,0 +1,170 @@
+
+/* begin overall style */
+body
+{
+	margin: 0;
+	padding: 0;
+	background: white;
+	background-image: url(../images/img1.jpg);
+	background-repeat: repeat-x;
+	color: #333;
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: 8pt;
+}
+
+a
+{
+	color: #25666F;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #ff0000;
+}
+
+h1
+{
+	margin: 0px 0px 10px 0px;
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-weight: bold;
+	color: #25666F;
+	font-size: 13pt;
+}
+
+input, textarea, select, button, optgroup
+{
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+.page
+{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+	height: 50px;
+
+}
+
+#logo
+{
+	margin: 0;
+	padding: 15px 0;
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: 16pt;
+   	font-weight: bold;
+        color: #ffffff;
+}
+
+#headerbreak
+{
+	padding: 20px 0 0 0;
+	background-color: #4C94BD;
+}
+
+.leftnav
+{
+	display:inline;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	width:160px;
+	margin-left:0;
+}
+
+
+.portlet {
+	margin: 0;
+	padding: 1px;
+	margin-bottom: 15px;
+	background-color: #75ABCC;
+}
+
+.portlet .header {
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 1;
+	padding: 7px 10px 8px;
+	margin: 0;
+	text-align: center;
+	background-color: #75ABCC;
+	line-height: 120%;
+}
+
+.portlet .content {
+	background: #ffffff;
+	
+	padding: 5px 5px 10px 5px;
+}
+
+.portlet ul,
+.portlet ol {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0 0 0 5px;
+	padding: 0;
+}
+
+.portlet li {
+	padding: 4px 0 2px 0px;
+}
+
+.portlet li span {
+	color: #777777;
+	font-weight: bold;
+}
+
+.portlet li.active a {
+	color: #c00000;
+}
+
+
+#content
+{
+	margin: 15px 0;
+	padding-left:180px;
+}
+
+
+table.colored {
+	font-family: verdana,arial,sans-serif;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.colored th {
+	background-color:#B2C2D1;
+	
+	border-width: 1px;
+	padding:6px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.colored tr {
+	background-color:#F8F8F8;
+}
+table.colored td {
+	border-width: 1px;
+	padding:6px;
+	border-style: solid;
+	border-color: #B2C2D1;
+}
+
+#footer
+{
+	padding: 15px;
+	margin-top: 120px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #B2C2D1;
+}
+
